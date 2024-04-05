@@ -1,0 +1,372 @@
+2024-04-04 13:15:12,545  INFO [main] PetStoreAutomation:51 - Creating User
+2024-04-04 13:15:14,818 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://petstore.swagger.io:443
+2024-04-04 13:15:14,869 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to petstore.swagger.io:443
+2024-04-04 13:15:16,275 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2024-04-04 13:15:16,277 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2024-04-04 13:15:16,278 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2024-04-04 13:15:16,282 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2024-04-04 13:15:16,282 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2024-04-04 13:15:16,283 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /v2/user HTTP/1.1
+2024-04-04 13:15:16,283 DEBUG [main] wire:73 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2024-04-04 13:15:16,286 DEBUG [main] wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2024-04-04 13:15:16,286 DEBUG [main] wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:16,286 DEBUG [main] wire:73 -  >> "Content-Length: 177[\r][\n]"
+2024-04-04 13:15:16,287 DEBUG [main] wire:73 -  >> "Host: petstore.swagger.io[\r][\n]"
+2024-04-04 13:15:16,287 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-04 13:15:16,287 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+2024-04-04 13:15:16,288 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-04 13:15:16,293 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2024-04-04 13:15:16,294 DEBUG [main] headers:278 - >> POST /v2/user HTTP/1.1
+2024-04-04 13:15:16,295 DEBUG [main] headers:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+2024-04-04 13:15:16,295 DEBUG [main] headers:281 - >> Content-Type: application/json
+2024-04-04 13:15:16,296 DEBUG [main] headers:281 - >> Content-Length: 177
+2024-04-04 13:15:16,296 DEBUG [main] headers:281 - >> Host: petstore.swagger.io
+2024-04-04 13:15:16,297 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2024-04-04 13:15:16,297 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2024-04-04 13:15:16,297 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2024-04-04 13:15:16,298 DEBUG [main] wire:87 -  >> "{"id":2001115307,"username":"augustus.koch","firstname":"Pilar","lastname":"Cassin","email":"kyle.schmidt@yahoo.com","password":"ufdgrm","phone":"1-008-900-3813","userStatus":0}"
+2024-04-04 13:15:16,535 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-04-04 13:15:16,539 DEBUG [main] wire:73 -  << "Date: Thu, 04 Apr 2024 07:45:18 GMT[\r][\n]"
+2024-04-04 13:15:16,541 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:16,542 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2024-04-04 13:15:16,544 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2024-04-04 13:15:16,545 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-04-04 13:15:16,546 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2024-04-04 13:15:16,547 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2024-04-04 13:15:16,549 DEBUG [main] wire:73 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2024-04-04 13:15:16,550 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:16,553 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2024-04-04 13:15:16,555 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2024-04-04 13:15:16,556 DEBUG [main] headers:265 - << Date: Thu, 04 Apr 2024 07:45:18 GMT
+2024-04-04 13:15:16,557 DEBUG [main] headers:265 - << Content-Type: application/json
+2024-04-04 13:15:16,558 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2024-04-04 13:15:16,559 DEBUG [main] headers:265 - << Connection: keep-alive
+2024-04-04 13:15:16,561 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2024-04-04 13:15:16,563 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2024-04-04 13:15:16,564 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2024-04-04 13:15:16,565 DEBUG [main] headers:265 - << Server: Jetty(9.2.9.v20150224)
+2024-04-04 13:15:16,590 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2024-04-04 13:15:16,603 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+2024-04-04 13:15:16,604 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-04 13:15:16,692 DEBUG [main] wire:73 -  << "34[\r][\n]"
+2024-04-04 13:15:16,693 DEBUG [main] wire:87 -  << "{"code":200,"type":"unknown","message":"2001115307"}"
+2024-04-04 13:15:16,696 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:16,697 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2024-04-04 13:15:16,698 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:16,698 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6c8e5ac4
+2024-04-04 13:15:16,699 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2024-04-04 13:15:16,744  INFO [main] PetStoreAutomation:55 - User is created
+2024-04-04 13:15:16,769  INFO [main] PetStoreAutomation:62 - geting User info
+2024-04-04 13:15:16,809 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://petstore.swagger.io:443
+2024-04-04 13:15:16,810 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to petstore.swagger.io:443
+2024-04-04 13:15:17,967 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2024-04-04 13:15:17,969 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2024-04-04 13:15:17,970 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2024-04-04 13:15:17,970 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2024-04-04 13:15:17,971 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2024-04-04 13:15:17,971 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:17,972 DEBUG [main] wire:73 -  >> "GET /v2/user/augustus.koch HTTP/1.1[\r][\n]"
+2024-04-04 13:15:17,972 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2024-04-04 13:15:17,973 DEBUG [main] wire:73 -  >> "Host: petstore.swagger.io[\r][\n]"
+2024-04-04 13:15:17,973 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-04 13:15:17,974 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+2024-04-04 13:15:17,975 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-04 13:15:17,976 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2024-04-04 13:15:17,976 DEBUG [main] headers:278 - >> GET /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:17,977 DEBUG [main] headers:281 - >> Accept: */*
+2024-04-04 13:15:17,977 DEBUG [main] headers:281 - >> Host: petstore.swagger.io
+2024-04-04 13:15:17,978 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2024-04-04 13:15:17,979 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2024-04-04 13:15:17,979 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2024-04-04 13:15:18,277 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-04-04 13:15:18,278 DEBUG [main] wire:73 -  << "Date: Thu, 04 Apr 2024 07:45:20 GMT[\r][\n]"
+2024-04-04 13:15:18,279 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:18,280 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2024-04-04 13:15:18,281 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2024-04-04 13:15:18,281 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-04-04 13:15:18,282 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2024-04-04 13:15:18,282 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2024-04-04 13:15:18,283 DEBUG [main] wire:73 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2024-04-04 13:15:18,283 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:18,284 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2024-04-04 13:15:18,284 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2024-04-04 13:15:18,285 DEBUG [main] headers:265 - << Date: Thu, 04 Apr 2024 07:45:20 GMT
+2024-04-04 13:15:18,285 DEBUG [main] headers:265 - << Content-Type: application/json
+2024-04-04 13:15:18,285 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2024-04-04 13:15:18,285 DEBUG [main] headers:265 - << Connection: keep-alive
+2024-04-04 13:15:18,286 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2024-04-04 13:15:18,286 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2024-04-04 13:15:18,286 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2024-04-04 13:15:18,287 DEBUG [main] headers:265 - << Server: Jetty(9.2.9.v20150224)
+2024-04-04 13:15:18,287 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2024-04-04 13:15:18,288 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+2024-04-04 13:15:18,288 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-04 13:15:18,289 DEBUG [main] wire:73 -  << "89[\r][\n]"
+2024-04-04 13:15:18,290 DEBUG [main] wire:87 -  << "{"id":2001115307,"username":"augustus.koch","email":"kyle.schmidt@yahoo.com","password":"ufdgrm","phone":"1-008-900-3813","userStatus":0}"
+2024-04-04 13:15:18,290 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:18,291 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2024-04-04 13:15:18,291 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:18,291 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@54caeadc
+2024-04-04 13:15:18,291 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2024-04-04 13:15:18,292  INFO [main] PetStoreAutomation:68 - User info is displayed
+2024-04-04 13:15:18,297  INFO [main] PetStoreAutomation:76 - Updating User
+2024-04-04 13:15:18,313 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://petstore.swagger.io:443
+2024-04-04 13:15:18,313 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to petstore.swagger.io:443
+2024-04-04 13:15:19,504 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2024-04-04 13:15:19,504 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2024-04-04 13:15:19,506 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2024-04-04 13:15:19,507 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2024-04-04 13:15:19,508 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2024-04-04 13:15:19,509 DEBUG [main] DefaultClientConnection:274 - Sending request: PUT /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:19,511 DEBUG [main] wire:73 -  >> "PUT /v2/user/augustus.koch HTTP/1.1[\r][\n]"
+2024-04-04 13:15:19,513 DEBUG [main] wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+2024-04-04 13:15:19,515 DEBUG [main] wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:19,516 DEBUG [main] wire:73 -  >> "Content-Length: 183[\r][\n]"
+2024-04-04 13:15:19,518 DEBUG [main] wire:73 -  >> "Host: petstore.swagger.io[\r][\n]"
+2024-04-04 13:15:19,519 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-04 13:15:19,520 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+2024-04-04 13:15:19,521 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-04 13:15:19,525 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2024-04-04 13:15:19,527 DEBUG [main] headers:278 - >> PUT /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:19,528 DEBUG [main] headers:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+2024-04-04 13:15:19,528 DEBUG [main] headers:281 - >> Content-Type: application/json
+2024-04-04 13:15:19,530 DEBUG [main] headers:281 - >> Content-Length: 183
+2024-04-04 13:15:19,531 DEBUG [main] headers:281 - >> Host: petstore.swagger.io
+2024-04-04 13:15:19,532 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2024-04-04 13:15:19,533 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2024-04-04 13:15:19,533 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2024-04-04 13:15:19,534 DEBUG [main] wire:87 -  >> "{"id":2001115307,"username":"augustus.koch","firstname":"Wyatt","lastname":"Jaskolski","email":"dannie.ernser@hotmail.com","password":"ufdgrm","phone":"1-008-900-3813","userStatus":0}"
+2024-04-04 13:15:19,809 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-04-04 13:15:19,810 DEBUG [main] wire:73 -  << "Date: Thu, 04 Apr 2024 07:45:21 GMT[\r][\n]"
+2024-04-04 13:15:19,811 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:19,812 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2024-04-04 13:15:19,813 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2024-04-04 13:15:19,813 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-04-04 13:15:19,814 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2024-04-04 13:15:19,815 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2024-04-04 13:15:19,815 DEBUG [main] wire:73 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2024-04-04 13:15:19,815 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:19,816 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2024-04-04 13:15:19,816 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2024-04-04 13:15:19,817 DEBUG [main] headers:265 - << Date: Thu, 04 Apr 2024 07:45:21 GMT
+2024-04-04 13:15:19,817 DEBUG [main] headers:265 - << Content-Type: application/json
+2024-04-04 13:15:19,818 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2024-04-04 13:15:19,818 DEBUG [main] headers:265 - << Connection: keep-alive
+2024-04-04 13:15:19,819 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2024-04-04 13:15:19,819 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2024-04-04 13:15:19,820 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2024-04-04 13:15:19,820 DEBUG [main] headers:265 - << Server: Jetty(9.2.9.v20150224)
+2024-04-04 13:15:19,821 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2024-04-04 13:15:19,821 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+2024-04-04 13:15:19,821 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-04 13:15:19,823 DEBUG [main] wire:73 -  << "34[\r][\n]"
+2024-04-04 13:15:19,823 DEBUG [main] wire:87 -  << "{"code":200,"type":"unknown","message":"2001115307"}"
+2024-04-04 13:15:19,823 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:19,824 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2024-04-04 13:15:19,824 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:19,825 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@191774d6
+2024-04-04 13:15:19,825 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2024-04-04 13:15:19,826  INFO [main] PetStoreAutomation:86 - User is updated
+2024-04-04 13:15:19,839 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://petstore.swagger.io:443
+2024-04-04 13:15:19,840 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to petstore.swagger.io:443
+2024-04-04 13:15:21,040 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2024-04-04 13:15:21,041 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2024-04-04 13:15:21,042 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2024-04-04 13:15:21,043 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2024-04-04 13:15:21,044 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2024-04-04 13:15:21,045 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:21,046 DEBUG [main] wire:73 -  >> "GET /v2/user/augustus.koch HTTP/1.1[\r][\n]"
+2024-04-04 13:15:21,047 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2024-04-04 13:15:21,048 DEBUG [main] wire:73 -  >> "Host: petstore.swagger.io[\r][\n]"
+2024-04-04 13:15:21,049 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-04 13:15:21,050 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+2024-04-04 13:15:21,051 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-04 13:15:21,052 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2024-04-04 13:15:21,053 DEBUG [main] headers:278 - >> GET /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:21,053 DEBUG [main] headers:281 - >> Accept: */*
+2024-04-04 13:15:21,054 DEBUG [main] headers:281 - >> Host: petstore.swagger.io
+2024-04-04 13:15:21,055 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2024-04-04 13:15:21,057 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2024-04-04 13:15:21,058 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2024-04-04 13:15:21,345 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-04-04 13:15:21,345 DEBUG [main] wire:73 -  << "Date: Thu, 04 Apr 2024 07:45:23 GMT[\r][\n]"
+2024-04-04 13:15:21,346 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:21,346 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2024-04-04 13:15:21,347 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2024-04-04 13:15:21,347 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-04-04 13:15:21,348 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2024-04-04 13:15:21,348 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2024-04-04 13:15:21,348 DEBUG [main] wire:73 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2024-04-04 13:15:21,348 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:21,349 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2024-04-04 13:15:21,349 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2024-04-04 13:15:21,349 DEBUG [main] headers:265 - << Date: Thu, 04 Apr 2024 07:45:23 GMT
+2024-04-04 13:15:21,350 DEBUG [main] headers:265 - << Content-Type: application/json
+2024-04-04 13:15:21,350 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2024-04-04 13:15:21,350 DEBUG [main] headers:265 - << Connection: keep-alive
+2024-04-04 13:15:21,351 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2024-04-04 13:15:21,351 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2024-04-04 13:15:21,351 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2024-04-04 13:15:21,351 DEBUG [main] headers:265 - << Server: Jetty(9.2.9.v20150224)
+2024-04-04 13:15:21,352 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2024-04-04 13:15:21,352 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+2024-04-04 13:15:21,352 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-04 13:15:21,357  INFO [main] PetStoreAutomation:97 - Deleting User
+2024-04-04 13:15:21,367 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://petstore.swagger.io:443
+2024-04-04 13:15:21,368 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to petstore.swagger.io:443
+2024-04-04 13:15:22,678 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2024-04-04 13:15:22,679 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2024-04-04 13:15:22,680 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2024-04-04 13:15:22,680 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2024-04-04 13:15:22,681 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2024-04-04 13:15:22,682 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:22,682 DEBUG [main] wire:73 -  >> "DELETE /v2/user/augustus.koch HTTP/1.1[\r][\n]"
+2024-04-04 13:15:22,683 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2024-04-04 13:15:22,684 DEBUG [main] wire:73 -  >> "Host: petstore.swagger.io[\r][\n]"
+2024-04-04 13:15:22,684 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-04 13:15:22,685 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+2024-04-04 13:15:22,685 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-04 13:15:22,686 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2024-04-04 13:15:22,686 DEBUG [main] headers:278 - >> DELETE /v2/user/augustus.koch HTTP/1.1
+2024-04-04 13:15:22,686 DEBUG [main] headers:281 - >> Accept: */*
+2024-04-04 13:15:22,687 DEBUG [main] headers:281 - >> Host: petstore.swagger.io
+2024-04-04 13:15:22,687 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2024-04-04 13:15:22,688 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2024-04-04 13:15:22,688 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2024-04-04 13:15:22,984 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-04-04 13:15:22,985 DEBUG [main] wire:73 -  << "Date: Thu, 04 Apr 2024 07:45:25 GMT[\r][\n]"
+2024-04-04 13:15:22,985 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2024-04-04 13:15:22,986 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2024-04-04 13:15:22,987 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2024-04-04 13:15:22,988 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-04-04 13:15:22,988 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2024-04-04 13:15:22,989 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2024-04-04 13:15:22,990 DEBUG [main] wire:73 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2024-04-04 13:15:22,991 DEBUG [main] wire:73 -  << "[\r][\n]"
+2024-04-04 13:15:22,992 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2024-04-04 13:15:22,992 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2024-04-04 13:15:22,993 DEBUG [main] headers:265 - << Date: Thu, 04 Apr 2024 07:45:25 GMT
+2024-04-04 13:15:22,994 DEBUG [main] headers:265 - << Content-Type: application/json
+2024-04-04 13:15:22,995 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2024-04-04 13:15:22,996 DEBUG [main] headers:265 - << Connection: keep-alive
+2024-04-04 13:15:22,997 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2024-04-04 13:15:22,998 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2024-04-04 13:15:22,999 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2024-04-04 13:15:23,000 DEBUG [main] headers:265 - << Server: Jetty(9.2.9.v20150224)
+2024-04-04 13:15:23,002 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2024-04-04 13:15:23,003 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+2024-04-04 13:15:23,004 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-04 13:15:23,006  INFO [main] PetStoreAutomation:101 - User is Deleted
+2024-04-04 13:15:23,048 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,049 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+2024-04-04 13:15:23,051 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2024-04-04 13:15:23,052 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-04-04 13:15:23,053 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-04-04 13:15:23,115 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,116 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+2024-04-04 13:15:23,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2024-04-04 13:15:23,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-04-04 13:15:23,117 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-04-04 13:15:23,218 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+2024-04-04 13:15:23,219 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2024-04-04 13:15:23,219 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-04-04 13:15:23,220 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-04-04 13:15:23,228 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,229 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+2024-04-04 13:15:23,230 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2024-04-04 13:15:23,230 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-04-04 13:15:23,231 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-04-04 13:15:23,234 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,235 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+2024-04-04 13:15:23,236 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2024-04-04 13:15:23,237 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-04-04 13:15:23,237 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-04-04 13:15:23,240 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,241 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+2024-04-04 13:15:23,242 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2024-04-04 13:15:23,242 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-04-04 13:15:23,242 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-04-04 13:15:23,247 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-04-04 13:15:23,248 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,249 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+2024-04-04 13:15:23,249 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2024-04-04 13:15:23,250 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-04-04 13:15:23,251 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-04-04 13:15:23,262 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,263 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+2024-04-04 13:15:23,264 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2024-04-04 13:15:23,265 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-04-04 13:15:23,265 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-04-04 13:15:23,272 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,274 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+2024-04-04 13:15:23,274 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2024-04-04 13:15:23,276 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-04-04 13:15:23,276 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-04-04 13:15:23,278 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,279 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+2024-04-04 13:15:23,280 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2024-04-04 13:15:23,280 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-04-04 13:15:23,281 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-04-04 13:15:23,290 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,291 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+2024-04-04 13:15:23,291 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2024-04-04 13:15:23,292 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-04-04 13:15:23,292 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-04-04 13:15:23,312 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,312 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+2024-04-04 13:15:23,313 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2024-04-04 13:15:23,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-04-04 13:15:23,314 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-04-04 13:15:23,333 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,334 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+2024-04-04 13:15:23,336 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2024-04-04 13:15:23,337 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2024-04-04 13:15:23,337 DEBUG [main] cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2024-04-04 13:15:23,354 DEBUG [main] cache:45 - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-04-04 13:15:23,356 DEBUG [main] cache:45 - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-04-04 13:15:23,359 DEBUG [main] cache:45 - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-04-04 13:15:23,360 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,361 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+2024-04-04 13:15:23,363 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2024-04-04 13:15:23,363 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-04-04 13:15:23,364 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-04-04 13:15:23,367 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,368 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+2024-04-04 13:15:23,369 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2024-04-04 13:15:23,370 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-04-04 13:15:23,371 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-04-04 13:15:23,372 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,373 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+2024-04-04 13:15:23,375 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2024-04-04 13:15:23,375 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-04-04 13:15:23,376 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-04-04 13:15:23,377 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,378 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+2024-04-04 13:15:23,379 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2024-04-04 13:15:23,380 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-04-04 13:15:23,381 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-04-04 13:15:23,383 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,384 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+2024-04-04 13:15:23,384 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2024-04-04 13:15:23,385 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-04-04 13:15:23,386 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-04-04 13:15:23,387 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,389 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+2024-04-04 13:15:23,390 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2024-04-04 13:15:23,391 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-04-04 13:15:23,392 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-04-04 13:15:23,400 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:62032<->34.195.95.86:443 closed
+2024-04-04 13:15:23,400 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:62033<->34.195.95.86:443 closed
+2024-04-04 13:15:23,401 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:62034<->34.195.95.86:443 closed
+2024-04-04 13:15:23,402 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:62035<->34.195.95.86:443 closed
+2024-04-04 13:15:23,441 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,442 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+2024-04-04 13:15:23,443 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2024-04-04 13:15:23,444 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-04-04 13:15:23,444 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-04-04 13:15:23,446 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-04-04 13:15:23,447 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+2024-04-04 13:15:23,448 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2024-04-04 13:15:23,450 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-04-04 13:15:23,451 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
